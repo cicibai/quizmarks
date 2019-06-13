@@ -17,7 +17,7 @@ public class Quiz {
                 for (int i = 1; i <= 8; i++) {
                     if (rep1[i].equals(ans1[i])) mark++;
                 }
-                System.out.print(rep1[0] + " " + mark);
+                System.out.print(rep1[0] + " " + mark + "/8");
                 System.out.println();
             }
         }
